@@ -1,0 +1,87 @@
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    }  
+
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+  }
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    float: left;
+    width: 10%;
+    clear: left;
+  
+  }
+  
+  /* Navbar links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Links - change color on hover */
+.topnav a:hover {
+    background-color: red;
+    color: black;
+  }
+
+.section {
+    width: 60%;
+    padding: 20px;
+    background-color: #333;
+    color:#F1F1F1;
+    clear: none;
+    float: left;
+    columns: 2;
+    column-width: 50px;
+
+
+}
+.article {
+    width: 60%;
+    padding: 20px;
+    background-color: azure;
+    float:left;
+    clear: none;
+
+    
+}
+.aside {
+    width: 20%;
+    float: right;
+    clear: none;
+    text-align: top;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+ } 
+
+ .footer {
+    background-color: #F1F1F1;
+    text-align: right;
+    padding: 10px;
+    clear: both;
+  }
